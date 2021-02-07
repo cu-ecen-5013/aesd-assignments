@@ -2,7 +2,7 @@
 #include <pthread.h>
 
 /**
- * This structurs should be dynamically allocated and passed as
+ * This structure should be dynamically allocated and passed as
  * an argument to your thread using pthread_create.
  * It should be returned by your thread so it can be freed by
  * the joiner thread.
